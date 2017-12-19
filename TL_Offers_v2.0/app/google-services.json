@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "16698475363",
+    "firebase_url": "https://tloffersfinder.firebaseio.com",
+    "project_id": "tloffersfinder",
+    "storage_bucket": "tloffersfinder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16698475363:android:16a3a1009f6ee957",
+        "android_client_info": {
+          "package_name": "com.example.kamran.logingreentheme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16698475363-9pgi3vbi39lpcml5cp7r6i6pku7qqi1i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kamran.logingreentheme",
+            "certificate_hash": "4ea9f60cbe3c99270a50b62c75bb9a9e47da31d0"
+          }
+        },
+        {
+          "client_id": "16698475363-69osh0lfkjtlpc7np9hd8q9e5efqnvi8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC73PHE6h84WUZUsgTX8v3lz90Jhr44YE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16698475363-69osh0lfkjtlpc7np9hd8q9e5efqnvi8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

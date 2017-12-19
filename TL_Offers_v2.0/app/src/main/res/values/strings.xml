@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TL_Offers_Finder</string>
+    <string name="title_activity_maps">Map</string>
+    <array name="categories">
+        <item>Fast Food</item>
+        <item>Coffee</item>
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Pasta</item>
+    </array>
+    <string name="title_activity_maps2">Map</string>
+</resources>
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grdnt"
+    android:orientation="vertical"
+    tools:context="com.example.kamran.logingreentheme.search">
+
+    <TextView
+        android:id="@+id/titlos"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Επιλέξτε Απόσταση"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <SeekBar
+        android:id="@+id/apostasi"
+        style="@android:style/Widget.DeviceDefault.Light.SeekBar"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="298dp"
+        android:layout_height="37dp"
+        android:max="10"
+        android:progress="1"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+
+        android:text="Απόσταση σε μέτρα"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Switch
+        android:id="@+id/idopioish"
+        android:layout_width="302dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Ειδοποίηση για προσφορές κοντά μου. "
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/choosefood"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="35dp"
+        android:text="Τι θες να φας?"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="115dp"
+        android:layout_height="33dp"
+        android:text="Pizza"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="116dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="40dp"
+        android:text="Burger"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="116dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="40dp"
+        android:text="Σουβλακια"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="116dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:text="Κρέπες"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="75dp"
+        android:text="Εύρεση"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Άνοιγμα Χαρτη"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+
+
+
+
+</LinearLayout>
+
